@@ -8,8 +8,8 @@
 </head>
 <body>
     <script>
-        let valor = parseFloat(prompt(`Digite o valor do produto: `))
-        let porcent = parseFloat(prompt(`Digite a porcentagem a ser somada: `))
+        let valor = parseFloat(prompt(`Digite o valor do produto: `, 0))
+        let porcent = parseFloat(prompt(`Digite a porcentagem a ser somada: `, 0))
         let valor_total = valor + ((valor*porcent)/100)
         alert(`O Valor Total é ${valor_total}`)
         console.log(`O Valor Total é ${valor_total}`)
