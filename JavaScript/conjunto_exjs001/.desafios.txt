@@ -1,0 +1,67 @@
+Lista de exercicios
+
+1. Escreva um programa para receber 2 números. Exiba:
+- sua soma
+- sua subtração
+- sua multiplicação
+- sua divisão
+- a média entre eles
+
+2. Escreva um programa para receber o nome de um estado da região
+Sudeste do Brasil. Exiba a sua capital.
+
+3. Crie um programa que receba o peso e a altura de uma pessoa. Calcule o
+IMC (Índice de Massa Corporal) desta pessoa.
+
+4. Faça um programa que calcule a área de um quadrado.
+
+5. Faça um programa que calcule a área de um triângulo equilátero.
+
+6. Crie um programa em que o usuário digite o valor de um produto e a
+porcentagem de desconto que ele irá obter. Informe o total que deverá ser
+pago pelo produto.
+
+7. Peça para o usuário digitar uma idade. Informe se a pessoa é obrigada ou não a votar, ou se o voto é opcional. (Somente If)
+
+8. Monte um laço de repetição para somar todos os números de 1 a 10. Exiba o total no final.
+
+9. Faça um programa que calcule a soma dos primeiros 50 números pares.
+
+10. Um funcionário de uma empresa recebe aumento salarial anualmente. Sabe-se que:
+• Esse funcionário foi contratado em 2015, com salário inicial de R$1000,00;
+• Em 2016 recebeu aumento de 1,5% sobre seu salário inicial;
+• A partir de 2017 (inclusive), os aumentos salariais sempre corresponderam ao dobro do percentual do ano anterior
+
+Faça um programa que determine o salário atual desse funcionário.
+
+
+11. Faça um programa onde o usuário possa escolher qual a tabuada que se deseja imprimir. Exiba a tabuada desse número de 1 a 10.
+
+12. Um funcionário de uma empresa recebe aumento salarial anualmente. Sabe-se que:
+• Esse funcionário foi contratado em 2010, com salário inicial de R$1000,00;
+• Em 2011 recebeu aumento de 1,5% sobre seu salário inicial;
+• A partir de 2012 (inclusive), os aumentos salariais sempre corresponderam ao dobro do percentual do ano anterior
+
+Faça um programa que determine o salário atual desse funcionário.
+
+13. Faça um programa que calcule a soma dos primeiros 50 números pares.
+
+14. Faça um programa onde o usuário possa escolher qual a tabuada que se deseja imprimir. Exiba a tabuada desse número de 1 a 10.
+
+
+
+
+
+1 – Calcule a média de diversas notas digitadas pelo usuário.
+
+2 – Faça um programa que entre com cinco números e imprima o quadrado de cada número.
+
+3 – Peça ao usuário para digitar 5 números em uma caixa de texto. Verifique qual é o maior número e exiba-o.
+
+4 – Peça ao usuário para digitar várias idades. Exiba quantas pessoas são maior de idade (18 anos) e quantas são menores.
+
+5 – Crie um programa que entre com os dados de altura e sexo de 5 pessoas. Imprima na tela quantas pessoas são do sexo masculino e quantas pessoas são do sexo feminino. Mostre também qual é a maior altura e se essa altura é de um homem ou uma mulher.
+
+6 – Peça ao usuário para digitar vários nomes. Exiba na tela todos os nomes digitados, porém de maneira invertida (do último para o primeiro).
+
+7 – Peça para o usuário digitar uma data. Exiba separadamente o dia, o mês e o ano. (Obs.: não necessita de laço de repetição)
