@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+}
+
+div {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+p {
+    margin: 10px auto;
+    width: 980px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.secao1 {
+    margin: 0;
+    background-color: #afddfb;
+}
+
+.secao1 img {
+    width: 150px;
+}
+
+.secao1 p {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    
+}
+
+.secao1 p a {
+    font-size: 18px;
+    color: #1d1d1d;
+    border-bottom: 2px solid #1d1d1d;
+    text-decoration: none;
+    margin: auto 10px;
+}
+
+.secao2 {
+    margin-top: 50px;
+    padding: 0;
+}
+
+span {
+    font-weight: bold;
+}
+
+.secao3 h1 {
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+
+.secao3 h2 {
+    font-weight: normal;
+    margin-top: 0;
+    color: #1c81c0;
+}
+
+.secao3 img, .secao5 img {
+    width: 450px;
+}
+
+.secao3 p span {
+    color: #1c81c0;
+}
+
+.texto-azul {
+    color: #1d80c1;
+    font-weight: bold;
+}
+
+.secao4 {
+    background-color: #1d80c1;
+    color: white;
+}
+
+.subtitulo {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.secao4 p {
+    width: 700px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 42px;
+    color: #ffffff;
+}
+
+.secao4 p span {
+    color: #fff81b;
+}
+
+.secao4 ul {
+    width: 135px;
+    margin: 40px auto;
+}
+
+.secao4 li {
+    text-align: left;
+    line-height: 42px;
+    font-size: 22px;
+}
+
+.secao5 h2 {
+    color: #1d80c1;
+}
+
+.secao6 {
+    background-color: #1d80c1;
+}
+
+.secao6 p {
+    background-color: #1d1d1d;
+    color: #ffffff;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.secao6 span {
+    color: #fff81b;
+}
+
+.secao6 ul {
+    margin: 40px auto;
+    width: 210px;
+}
+
+.secao6 ul li {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.secao6 ul li a {
+    background-color: #ffffff;
+    color: #1d80c1;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
