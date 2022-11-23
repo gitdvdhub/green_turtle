@@ -118,6 +118,15 @@ main {
     text-transform: uppercase;
 }
 
+.button_verde {
+    background-color: #00cad1;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
 footer {
     margin: 0;
     padding: 0;
