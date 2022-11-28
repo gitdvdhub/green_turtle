@@ -10,6 +10,8 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+
+
 header {
     background-color: #00CAD1;
 }
@@ -21,6 +23,18 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+@media (max-width: 425px) {
+    .header {
+        flex-direction: column;
+    }
+    .links-topo {
+        width: 100%; 
+        border-top: 1px solid #009fa5; 
+        justify-content: space-around;
+        text-align: center;
+    }
 }
 
 .logo-topo {
@@ -81,6 +95,7 @@ main {
 .box-sobre {
     display: flex;
     justify-content: center;
+    margin: auto 20px;
 }
 
 .box-sobre h3 {
@@ -119,12 +134,61 @@ main {
 }
 
 .button_verde {
+    margin: 15px auto;
+}
+
+.button_verde a {
     background-color: #00cad1;
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
     padding: 10px 20px;
     text-decoration: none;
+}
+
+.box-contato {
+    margin: 50px auto;
+}
+
+
+
+@media (max-width: 768px) {
+    .banner {
+        height: 300px;
+    }
+    
+    .box-sobre img {
+        display: none;
+    }
+    
+    .card-especialidade {
+        width: calc(100% / 2 - 40px);
+    }
+}
+
+@media (max-width: 425px) {
+    .banner {
+        height: 200px;
+    }
+
+    .banner h1 {
+        font-size: 28px;
+    }
+
+    .card-especialidade {
+        width: 100%;
+    }
+}
+@media (max-width: 1024px) {
+    .banner {
+        height: 400px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .banner {
+        height: 500px;
+    }
 }
 
 footer {
