@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&amp;display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    background-color: #80808029;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Estilização do header*/
+
+#header-logo {
+    width: 100vw;
+    height: 55px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#div-logo {
+    width: 100%;
+    height: 100%;
+    max-width: 1020px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#div-logo img {
+    width: 32px;
+    height: 32px;
+}
+
+#div-logo p {
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/*Section do formulário*/
+
+.section-form {
+    width: 100%;
+    background-color: #fff;
+    background-image: url(../imagens/bahia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* shorthand: */
+    background: #fff url(../imagens/bahia.jpg) no-repeat cover;
+    padding: 50px 0;
+}
+
+.full-form {
+    width: 100%;
+    max-width: 1024px;
+    background-color: #fff;
+    margin: 50px auto;
+}
+
+.text-form {
+    width: 100%;
+    height: 35px;
+    background-color: #5d15d1;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-form img {
+    width: 20px;
+    transform: rotate(-45deg);
+}
+
+.text-form h1 {
+    font-size: 14px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.main-form {
+    padding: 30px 25px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-form h2 {
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.main-form label {
+    font-size: 16px;
+}
+
+.main-form input, .main-form select {
+    box-sizing: border-box;
+    width: 100%;
+    height: 32px;
+    margin: 10px 0;
+    padding: 0 5px;
+}
+
+.main-form .form-data, .form-origem-destino {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form-data-ida, .form-data-volta, .form-origem-destino div {
+    width: calc(50% - 10px);
+
+}
+
+.form-origem-destino select {
+    width: 100%;
+    padding: 0 3px;
+}
+
+.infantil, .preferencias {
+    width: 100%;
+}
+
+.campos-de-selecao, .campos-de-selecao div {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.campos-de-selecao div {
+    width: 120px;
+}
+
+.campos-de-selecao div input {
+    width: 15px;
+}
+
+.campos-de-selecao div label {
+    margin-left: 8px;
+}
+
+.form-button {
+    background-color: #5d15d1;
+    color: #fff;
+    width: 160px;
+    height: 32px;
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+/*Ofertas */
+
+.section-ofertas {
+    width: 100%;
+    max-width: 1024px;
+    margin: 32px auto 0;
+}
+
+.section-ofertas h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.section-ofertas h3 {
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.full-figures {
+    width: 100%;
+    height: 375px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.big-figure {
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+}
+
+.normal-figures {
+    width: calc(50% - 10px);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.normal-figures figure {
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin: 6px;
+}
+
+.full-figures img {
+    width: 100%;
+    height: 100%;
+}
+

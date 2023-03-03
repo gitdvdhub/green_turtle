@@ -5,10 +5,11 @@
     <meta name="description" content="A Agência de viagens encontra o hotel certo para você!">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agência de Viagens</title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    <header>
-        <div class="header-logo">
+    <header id="header-logo">
+        <div id="div-logo">
             <img src="imagens/local-logo.png" alt="logo">
             <p>Agência de viagens</p>
         </div>
@@ -16,11 +17,14 @@
 
     <main>
         <section class="section-form">
-            <h1>Solicite um orçamento</h1>
-            <div class="full-form">
-                <h2>Informe seus dados</h2>
 
-                <form method="post" action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/">
+            <div class="full-form">
+                <div class="text-form">
+                    <img src="imagens/aviao.png" alt="icon de aviao">
+                    <h1>Solicite um orçamento</h1>
+                </div>
+                <form method="post" action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/" class="main-form">
+                    <h2>Informe seus dados</h2>
                     <div class="form-nome">
                         <label for="nome">Nome</label>
                         <input type="text" name="nome" id="nome">
@@ -62,23 +66,23 @@
                         </div>
                     </div>
 
-                    <div class="form-camainfantil">
+                    <div class="infantil">
                         <label for="">Quarto com cama infantil?</label>
-                        <div>
+                        <div class="campos-de-selecao">
                             <div>
                                 <input type="radio" name="camainfantil" id="cama-sim">
                                 <label for="cama-sim">Sim</label>
                             </div>
                             <div>
                                 <input type="radio" name="camainfantil" id="cama-nao">
-                                <label for="cama-nao">nao</label>
+                                <label for="cama-nao">Não</label>
                             </div>
                         </div>
                     </div>
 
-                    <div>
+                    <div class="preferencias">
                         <label for="">Preferências da hospedagem</label>
-                        <div>
+                        <div class="campos-de-selecao">
                             <div>
                                 <input type="checkbox" name="piscina" id="piscina">
                                 <label for="piscina">Piscina</label>
@@ -99,7 +103,7 @@
                     </div>
 
                     <div>
-                        <button type="submit">Solicitar orçamento</button>
+                        <button type="submit" class="form-button">Solicitar orçamento</button>
                     </div>
 
                 </form>
@@ -109,14 +113,14 @@
         <section class="section-ofertas">
             <h2>Ofertas</h2>
             <h3>Com até <span class="bold">50%</span> de desconto</h3>
-            <div>
-                <div>
+            <div class="full-figures">
+                <div class="big-figure">
                     <figure>
                         <img src="imagens/rio.jpg" alt="Rio de Janeiro">
                         <figcaption>Rio de Janeiro</figcaption>
                     </figure>
                 </div>
-                <div>
+                <div class="normal-figures">
                     <figure>
                         <img src="imagens/manaus.jpg" alt="Manaus">
                         <figcaption>Manaus</figcaption>
