@@ -36,18 +36,18 @@
                     </div>
 
                     <div class="form-numero">
-                        <label for="numero">numero</label>
+                        <label for="numero">Número</label>
                         <input type="number" name="numero" id="numero">
                     </div>
                     
                     <div class="form-data">
                         <div class="form-data-ida">
                             <label for="data-ida">Data da ida</label>
-                            <input type="date" name="data-ida" id="data-ida">
+                            <input type="date" name="partida" id="data-ida">
                         </div>
                         <div class="form-data-volta">
                             <label for="data-volta">Data da volta</label>
-                            <input type="date" name="data-volta" id="data-volta">
+                            <input type="date" name="chegada" id="data-volta">
                         </div>
                     </div>
 
@@ -56,12 +56,14 @@
                             <label for="origem">Origem</label>
                             <select name="origem" id="origem">
                                 <option value="default">Partindo de</option>
+                                <option value="RJ">Rio de Janeiro</option>
                             </select>
                         </div>
                         <div class="form-destino">
                             <label for="destino">Destino</label>
                             <select name="destino" id="destino">
                                 <option value="default">Indo para</option>
+                                <option value="SP">São Paulo</option>
                             </select>
                         </div>
                     </div>
@@ -70,11 +72,11 @@
                         <label for="">Quarto com cama infantil?</label>
                         <div class="campos-de-selecao">
                             <div>
-                                <input type="radio" name="camainfantil" id="cama-sim">
+                                <input type="radio" name="infantil" id="cama-sim">
                                 <label for="cama-sim">Sim</label>
                             </div>
                             <div>
-                                <input type="radio" name="camainfantil" id="cama-nao">
+                                <input type="radio" name="infantil" id="cama-nao">
                                 <label for="cama-nao">Não</label>
                             </div>
                         </div>
@@ -84,19 +86,19 @@
                         <label for="">Preferências da hospedagem</label>
                         <div class="campos-de-selecao">
                             <div>
-                                <input type="checkbox" name="piscina" id="piscina">
+                                <input type="checkbox" name="preferencias" id="piscina">
                                 <label for="piscina">Piscina</label>
                             </div>
                             <div>
-                                <input type="checkbox" name="wifi" id="wifi">
+                                <input type="checkbox" name="preferencias" id="wifi">
                                 <label for="wifi">Wi-Fi</label>
                             </div>
                             <div>
-                                <input type="checkbox" name="garagem" id="garagem">
+                                <input type="checkbox" name="preferencias" id="garagem">
                                 <label for="garagem">Garagem</label>
                             </div>
                             <div>
-                                <input type="checkbox" name="suite" id="suite">
+                                <input type="checkbox" name="preferencias" id="suite">
                                 <label for="suite">Suite</label>
                             </div>
                         </div>
@@ -143,7 +145,8 @@
             <h2>Explore a Natureza</h2>
             <h3>Viaje conosco e veja o melhor que a natureza tem a oferecer.</h3>
             <div class="cards-anuncios">
-                <div class="card-anuncio">
+
+                <div class="card-anuncio aposum">
                     <img src="imagens/lencol.jpg" alt="Lençois Maranhenses">
                     <div class="card-caption">
                         <h2>Lençois Maranhenses, Brasil</h2>
@@ -151,13 +154,14 @@
                     </div>
                 </div>
 
-                <div class="card-anuncio">
+                <div class="card-anuncio aposdois">
                     <img src="imagens/cachoeira.jpg" alt="Lençois Maranhenses">
                     <div class="card-caption">
                         <h2>Cachoeira Santa Bárbara, Brasil</h2>
                         <p>Ida e volta por R$139</p>
                     </div>
                 </div>
+
             </div>
         </section>
     </main>
@@ -200,5 +204,9 @@
             </div>
         </div>
     </footer>
+
+    <script>
+
+    </script>
 </body>
 </html>

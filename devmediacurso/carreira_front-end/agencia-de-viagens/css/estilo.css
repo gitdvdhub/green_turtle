@@ -119,7 +119,6 @@ body {
 
 .form-data-ida, .form-data-volta, .form-origem-destino div {
     width: calc(50% - 10px);
-
 }
 
 .form-origem-destino select {
@@ -234,15 +233,6 @@ body {
     width: calc(50% -10px);
 }
 
-.full-figures figure:hover {
-    transform: scale(105%);
-    transition: 0.3s;
-}
-
-.full-figures figure:not(:hover) {
-    transition: 0.3s;
-}
-
 /*Section de anúncios*/
 
 .cards-anuncios {
@@ -274,7 +264,6 @@ body {
     margin-top: 15px;
     color: gray;
 }
-
 
 /*footer*/
 
@@ -317,4 +306,24 @@ footer {
     font-size: 14px;
     color: #fff;
     margin-left: 10px;
+}
+
+/*animações hehe*/
+
+.full-figures figure {
+    transition: 0.3s;
+}
+
+.full-figures figure:hover {
+    transform: scale(105%);
+    transition: 0.3s;
+}
+
+.card-anuncio {
+    transition: 0.5s;
+}
+
+.card-anuncio:hover {
+    transform: scale(105%);
+    transition: 0.5s;    
 }
