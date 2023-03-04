@@ -9,6 +9,7 @@ body {
     width: 100vw;
     background-color: #80808029;
     font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
 }
 
 /*Estilização do header*/
@@ -160,22 +161,26 @@ body {
 
 /*Ofertas */
 
-.section-ofertas {
+.section-ofertas, .section-anuncios {
     width: 100%;
     max-width: 1024px;
-    margin: 32px auto 0;
+    margin: 54px auto 0;
+    display: flex;
+    flex-direction: column;
 }
 
-.section-ofertas h2 {
+.section-ofertas h2, .section-anuncios h2 {
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-.section-ofertas h3 {
+.section-ofertas h3, .section-anuncios h3 {
     font-weight: normal;
     font-size: 16px;
     margin-bottom: 15px;
 }
+
+/*figures*/
 
 .full-figures {
     width: 100%;
@@ -185,30 +190,131 @@ body {
     justify-content: space-between;
 }
 
-
-
-.big-figure {
-    width: calc(50% - 10px);
-    height: calc(50% - 10px);
-}
-
-.normal-figures {
-    width: calc(50% - 10px);
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.normal-figures figure {
-    width: calc(50% - 10px);
-    height: calc(50% - 10px);
-    margin: 6px;
-}
-
 .full-figures img {
     width: 100%;
     height: 100%;
 }
 
+.full-figures figcaption {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 17px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px 10px;
+}
+
+.big-figure {
+    position: relative;
+    width: calc(50% - 10px);
+    height: 100%;
+}
+
+.normal-figures {
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+
+.normal-figures figure {
+    position: relative;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin: 6px 0;
+}
+
+.normal-figures figcaption {
+    width: calc(50% -10px);
+}
+
+.full-figures figure:hover {
+    transform: scale(105%);
+    transition: 0.3s;
+}
+
+.full-figures figure:not(:hover) {
+    transition: 0.3s;
+}
+
+/*Section de anúncios*/
+
+.cards-anuncios {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-anuncio {
+    width: calc(50% - 10px);
+    height: 100%;
+}
+
+.card-anuncio img {
+    width: 100%;
+}
+
+.card-anuncio .card-caption {
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.card-caption h2 {
+    font-size: 16px;
+}
+
+.card-caption p {
+    margin-top: 15px;
+    color: gray;
+}
+
+
+/*footer*/
+
+footer {
+    width: 100%;
+    margin-top: 32px;
+    background-color: #5d15d1;
+}
+
+.footer-div {
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer-content div {
+    margin: 5px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-content div img {
+    width: 18px;
+}
+
+.footer-content div span {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 10px;
+}
