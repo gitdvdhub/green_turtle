@@ -1,25 +1,26 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld';
+import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
+import Frase from './components/Frase';
 
 function App() {
 
-  const name = "Matheus";
-
-  function sum(a, b) {
-    return a + b;
-  }
-
-  const url = "https://via.placeholder.com/150";
+  const nome = "Maria"
 
   return (
     <div className="App">
-      <h2>Alterando o JSX</h2>
-      <p>Olá, {name}!</p>
-      <p>Soma: {sum(1, 2)}</p>
-      <img src={url} alt="Minha imagem" />
-      <HelloWorld />
-      <HelloWorld />
-      <HelloWorld />
+      <h1>Teste</h1>
+      <Frase />
+      <Frase />
+      <SayMyName nome="Matheus" />
+      <SayMyName nome="João" />
+      <SayMyName nome={nome} />
+      <Pessoa 
+        nome="Rodrigo"
+        idade="28"
+        profissao="Programador"
+        foto="https://via.placeholder.com/150"
+        />
     </div>
   );
 }
