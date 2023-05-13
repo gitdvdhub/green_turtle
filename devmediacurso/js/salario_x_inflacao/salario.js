@@ -61,7 +61,7 @@ function listarSalarioMinimo(salarioMinimoEAno = salarioMinimoPorAno) {
     for (let conjunto of salarioMinimoEAno) {
         console.log(`
         Ano: .......... ${conjunto.ano}
-        Salario mínimo: ${formatarSalario(conjunto.salario)}
+        Salario mínimo: ${formatarReais(conjunto.salario)}
         `
         );
     }
@@ -71,7 +71,7 @@ function listarIndiceIPCA(IPCA) {
     for (let conjunto of IPCA) {
         console.log(`
         Ano: .......... ${conjunto.ano}
-        IPCA: ......... ${formatarIPCA(conjunto.IPCA)}%
+        IPCA: ......... ${formatarPorcentagem(conjunto.IPCA)}%
         `
             );
     }
@@ -86,24 +86,24 @@ function comparacaoSalarioIPCA(salarioMinimoEAno, inflacaoIPCA) {
 
         console.log(`
         Ano: .................... ${ano}
-        Salario mínimo: ........ ${formatarSalario(salario)}
-        Crescimento salarial: ..... ${(ano == 2010) ? "-" : formatarIPCA(calcularCrescimentoSalarial(salarioMinimoEAno, i))}%
-        Inflalação IPCA: .......... ${formatarIPCA(IPCA)}%
+        Salario mínimo: ........ ${formatarReais(salario)}
+        Crescimento salarial: ..... ${formatarPorcentagem((ano == 2010) ? "-" : formatarPorcentagem(calcularCrescimentoSalarial(salarioMinimoEAno, i)))}
+        Inflalação IPCA: .......... ${formatarPorcentagem(IPCA)}%
         `);
     }
 
 
 }
 
-function calcularCrescimentoSalarial(salarioEAno, indice) {
+const calcularCrescimentoSalarial = (salarioEAno, indice) => {
     let diferenca = salarioEAno[indice].salario - salarioEAno[indice - 1].salario;
     return (diferenca / salarioEAno[indice - 1].salario) * 100;
-}
+};
 
-function formatarSalario(salario) {
+const formatarReais = salario => {
     return `R$ ${salario.toFixed(2).replace('.', ',')}`;
-}
+};
 
-function formatarIPCA(IPCA) {
+const formatarPorcentagem = IPCA => {
     return `${IPCA.toFixed(2).replace('.', ',')}%`;
-}
+};
