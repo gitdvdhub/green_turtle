@@ -7,15 +7,15 @@ function SecaoContato() {
                 <div>
                     <div className="meios-contato">
                         <h3>Contato</h3>
-                        <span> <img src={process.env.PUBLIC_URL + "/assets/images/local.png"} alt="icone" /> Nova Iguaçu, RJ</span>
-                        <span> <img src={process.env.PUBLIC_URL + "/assets/images/telefone.png"} alt="icone" /> (21) 99999-9999</span>
-                        <span> <img src={process.env.PUBLIC_URL + "/assets/images/email.png"} alt="icone" /> contato@oticavida.com</span>
+                        <div> <img src={process.env.PUBLIC_URL + "/assets/images/local.png"} alt="icone" /> Nova Iguaçu, RJ</div>
+                        <div> <img src={process.env.PUBLIC_URL + "/assets/images/telefone.png"} alt="icone" /> (21) 99999-9999</div>
+                        <div> <img src={process.env.PUBLIC_URL + "/assets/images/email.png"} alt="icone" /> contato@oticavida.com</div>
                     </div>
                     <div className="redes-sociais">
                         <h3>Redes Sociais</h3>
-                        <span> <img src={process.env.PUBLIC_URL + "/assets/images/fb.png"} alt="icone" /> /OticaVida</span>
-                        <span> <img src={process.env.PUBLIC_URL + "/assets/images/ig.png"} alt="icone" /> @oticavidarj</span>
-                        <span> <img src={process.env.PUBLIC_URL + "/assets/images/tt.png"} alt="icone" /> @oticavidarj</span>
+                        <div> <img src={process.env.PUBLIC_URL + "/assets/images/fb.png"} alt="icone" /> /OticaVida</div>
+                        <div> <img src={process.env.PUBLIC_URL + "/assets/images/ig.png"} alt="icone" /> @oticavidarj</div>
+                        <div> <img src={process.env.PUBLIC_URL + "/assets/images/tt.png"} alt="icone" /> @oticavidarj</div>
                     </div>
                 </div>
             </div>
