@@ -1,0 +1,113 @@
+
+@media (max-width: 768px) {
+    .secao-capa-content h1{
+        font-size: 2.5rem;
+        max-width: 21.875rem;
+    }
+
+    .secao-capa-content p {
+        font-size: 1.25rem;
+    }
+
+    .secao-produtos {
+        padding: 3.75rem 1.25rem;
+    }
+
+    .secao-produtos-content .cards .card h2 {
+        font-size: 1.375rem;
+    }
+
+    .secao-produtos-content .cards .card img {
+        max-height: 100px;
+    }
+
+    .secao-produtos-content .cards .card p {
+        font-size: 1rem;
+    }
+
+    .secao-sobre {
+        padding: 3.75rem 1.25rem;
+    }
+
+    .secao-sobre-content .cards div {
+        padding: 0.938rem;
+    }
+
+    .secao-sobre-content .cards div h2 {
+        font-size: 1.25rem;
+    }
+
+    .secao-sobre-content .cards div p {
+        font-size: 1rem;
+    }
+
+    .secao-contato {
+        padding: 3.75rem 1.25rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .header-content {
+        flex-direction: column;
+    }
+
+    .header-content nav {
+        width: 100%;
+        text-align: center;
+        padding: 0.625rem;
+        margin-top: 0.625rem;
+        border-top: 1px solid #aaadaf;
+    }
+
+    .secao-capa {
+        background-position: 89% center;
+    }
+
+    .secao-capa-content {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .secao-produtos {
+        padding: auto 0.625rem;
+    }
+
+    .secao-produtos-content .cards .card {
+        width: 100%;
+    }
+
+    .secao-produtos ul {
+        align-items: flex-start;
+    }
+
+    .secao-sobre {
+        padding: auto 0.625rem;
+    }
+
+    .secao-sobre-content .cards {
+        flex-direction: column;
+    }
+
+    .secao-sobre-content .cards img, .secao-sobre-content .cards div {
+        width: 100%;
+        height: 300px;
+        border: 1px solid #a2adad;
+    }
+
+    .secao-contato {
+        padding: auto 0.625rem;
+    }
+
+    .secao-contato-content > div {
+        flex-direction: column;
+    }
+
+    .secao-contato-content .meios-contato, .secao-contato-content .redes-sociais {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .secao-contato-content .meios-contato div, .secao-contato-content .redes-sociais div {
+        width: 150px;
+    }
+}

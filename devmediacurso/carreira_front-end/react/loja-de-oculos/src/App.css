@@ -16,6 +16,7 @@ header {
 .header-content {
   width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   align-self: center;
@@ -222,6 +223,7 @@ header {
 
 .secao-contato-content img {
   width: 18px;
+  margin-right: 0.4rem;
 }
 
 /*Footer*/
