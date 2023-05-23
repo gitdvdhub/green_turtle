@@ -33,6 +33,11 @@ header {
   margin: auto 0.313rem;
 }
 
+.header-content nav a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /*Estilização do Main*/
 
 /*Secao Capa*/

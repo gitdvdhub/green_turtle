@@ -1,7 +1,7 @@
 
 function SecaoProdutos() {
     return (
-        <section className="secao-produtos">
+        <section className="secao-produtos" id="produtos">
             <div className="secao-produtos-content max-width">
                 <h2>NOSSOS PRODUTOS</h2>
                 <p>Trabalhamos com óculos de grau, óculos de sol, lentes transition nos modelos masculino, feminino e infantil.</p>
