@@ -210,6 +210,20 @@ header {
   margin: 0.313rem 0;
 }
 
+.secao-contato-content .meios-contato div p, .secao-contato-content .redes-sociais div p {
+  font-size: 0.875rem;
+  margin-left: 0.625rem;
+}
+
 .secao-contato-content img {
   width: 18px;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #030303;
+  text-align: center;
+  color: #adadad;
+  padding: 1.25rem;
 }
