@@ -125,7 +125,7 @@ header {
 }
 
 .secao-produtos-content ul {
-  padding: 1.25rem 0;
+  padding: 1.25rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
