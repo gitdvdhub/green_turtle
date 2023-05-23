@@ -3,17 +3,22 @@ px para medidas de imagens
 rem para medidas de fontes e outras medidas
 */
 
+/*Estilização do Header*/
+
 header {
   width: 100%;
   height: 100px;
   padding: 0.625rem 0.938rem;
   background-color: #fff;
+  display: flex;
 }
 
 .header-content {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  align-self: center;
 }
 
 .header-content img {
@@ -26,4 +31,45 @@ header {
   color: #000;
   padding: 0.313rem; /*5px*/
   margin: auto 0.313rem;
+}
+
+/*Estilização do Main*/
+
+/*Secao Capa*/
+
+.secao-capa {
+  height: 80%;
+  background-color: #000;
+  background-image: url('/public/assets/images/capa.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.secao-capa-content {
+  width: 100%;
+  height: 100%;
+  padding: 1.25rem; /*20px*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.secao-capa-content * {
+  max-width: 31.25rem; /*500px*/
+  font-family: 'Anybody', cursive;
+}
+
+.secao-capa-content h1 {
+  color: #fff;
+  font-size: 3.75rem;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.313rem; /*5px*/
+  line-height: 4.375rem; /*70px*/
+}
+
+.secao-capa-content p {
+  font-size: 2.25rem;
+  color: rgb(196, 196, 196);
 }
