@@ -2,7 +2,7 @@
 function Header () {
     return (
         <header>
-            <div className="header-content">
+            <div className="header-content max-width">
                 <img src={process.env.PUBLIC_URL + "/assets/images/logo.png"} alt="Logo óticas vida" />
                 <nav>
                     <a href="#produtos">PRODUTOS</a>
