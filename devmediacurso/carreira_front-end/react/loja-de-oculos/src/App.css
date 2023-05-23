@@ -179,3 +179,37 @@ header {
   font-size: 1.375rem;
   color: #4a4a4a;
 }
+
+/*Secao Contato*/
+
+.secao-contato {
+  width: 100%;
+  padding: 6.25rem 1.25rem;
+  text-align: center;
+  color: #fff;
+  background-color: #05031b;
+}
+
+.secao-contato-content > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.secao-contato-content .meios-contato, .secao-contato-content .redes-sociais {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.938rem;
+}
+
+.secao-contato-content .meios-contato div, .secao-contato-content .redes-sociais div {
+  display: flex;
+  align-items: center;
+  margin: 0.313rem 0;
+}
+
+.secao-contato-content img {
+  width: 18px;
+}

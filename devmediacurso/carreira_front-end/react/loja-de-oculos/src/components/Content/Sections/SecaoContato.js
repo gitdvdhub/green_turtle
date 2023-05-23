@@ -1,7 +1,7 @@
 function SecaoContato() {
     return (
         <section className="secao-contato">
-            <div className="secao-contato-content">
+            <div className="secao-contato-content max-width">
                 <h2>Fale Conosco</h2>
                 <p>Não perca tempo, venha conhecer uma de nossas lojas ou entre em contato através de nossas redes sociais ou da central de atendimento.</p>
                 <div>
