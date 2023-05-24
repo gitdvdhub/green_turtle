@@ -5,7 +5,6 @@ import PaginaInicial from './components/PaginaInicial';
 
 const App = () => (
   <div className="App">
-    <Rotas />
     <PaginaInicial />
   </div>
 );
