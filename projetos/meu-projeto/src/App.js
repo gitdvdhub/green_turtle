@@ -1,25 +1,20 @@
 import './App.css';
-import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
-import Frase from './components/Frase';
 
 function App() {
-
-  const nome = "Maria"
 
   return (
     <div className="App">
       <h1>Teste</h1>
-      <Frase />
-      <Frase />
+      {/* <Frase />
       <SayMyName nome="Matheus" />
-      <SayMyName nome="João" />
-      <SayMyName nome={nome} />
+      <HelloWorld /> */}
       <Pessoa 
-        nome="Rodrigo"
-        idade="28"
-        profissao="Programador"
+        nome="Pedro Henrique "
+        idade="15, em breve 16"
+        profissao="Gostosão pegador de mulher"
         foto="https://via.placeholder.com/150"
+        namorada="Julia"
         />
     </div>
   );
