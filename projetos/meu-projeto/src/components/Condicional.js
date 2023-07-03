@@ -9,7 +9,7 @@ export default function Condicional() {
         setUserEmail(email)
     }
 
-    function limparEmail() {
+    function limparEmail(e) {
         e.preventDefault()
         setUserEmail("")
     }
